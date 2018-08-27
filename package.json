@@ -32,7 +32,8 @@
     "size": "size-limit",
     "test": "jest",
     "lint": "eslint src/**",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "prepare": "npm run build"
   },
   "files": [
     "es",
